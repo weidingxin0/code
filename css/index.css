@@ -63,6 +63,7 @@ body {
   height: 1.013333rem;
   line-height: 1.013333rem;
   font-size: 0.453333rem;
+  margin-bottom: 0.906667rem;
 }
 .content .con-hd h4 {
   color: #333333;
@@ -79,11 +80,12 @@ body {
   color: #999999;
 }
 .muma {
+  position: relative;
   height: 13.013333rem;
   width: 100%;
 }
 .muma .swiper-container {
-  width: 100%;
+  width: 14.4rem;
   height: 100%;
 }
 .muma .swiper-slide {
@@ -95,6 +97,7 @@ body {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
@@ -105,13 +108,31 @@ body {
   align-items: center;
   transition: 300ms;
   transform: scale(0.8);
+  opacity: 0.6;
 }
 .muma .swiper-slide a {
   display: block;
-  width: 9.066667rem;
-  height: 10.133333rem;
+  width: 9.013333rem;
+  height: 10.026667rem;
+}
+.muma .swiper-slide a img {
+  width: 100%;
+  height: 100%;
+}
+.muma .swiper-slide p {
+  width: 9.013333rem;
+  margin-top: 0.64rem;
+  font-size: 0.666667rem;
+  color: #333333;
 }
 .muma .swiper-slide-active,
 .muma .swiper-slide-duplicate-active {
   transform: scale(1);
+  z-index: 999;
+  opacity: 1;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #666 !important;
+  outline: none;
 }
