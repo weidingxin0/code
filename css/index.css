@@ -78,6 +78,10 @@ body {
   text-decoration: none;
   color: #999999;
 }
+.muma {
+  height: 13.013333rem;
+  width: 100%;
+}
 .muma .swiper-container {
   width: 100%;
   height: 100%;
@@ -101,6 +105,11 @@ body {
   align-items: center;
   transition: 300ms;
   transform: scale(0.8);
+}
+.muma .swiper-slide a {
+  display: block;
+  width: 9.066667rem;
+  height: 10.133333rem;
 }
 .muma .swiper-slide-active,
 .muma .swiper-slide-duplicate-active {
