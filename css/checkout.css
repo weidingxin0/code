@@ -54,4 +54,40 @@ body {
   height: 550px;
   background-color: #ffffff;
   margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.middle .box {
+  width: 20rem;
+  height: 12.666667rem;
+}
+.middle .box .main {
+  width: 10rem;
+  height: 12.666667rem;
+}
+.dibu {
+  height: 18.933333rem;
+  background-color: #ffffff;
+}
+.list li {
+  height: 1.2rem;
+  text-align: center;
+}
+.list .line {
+  display: inline-block;
+  width: 12.133333rem;
+  height: 0.026667rem;
+  border-top: 1px solid #cccccc;
+}
+.list .location {
+  color: #333333;
+  margin-right: 0.4rem;
+}
+.list .num {
+  display: inline-block;
+  border-radius: 50%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  width: 1.333333rem;
+  margin-right: 0.266667rem;
+  background-color: #fc6460;
 }
