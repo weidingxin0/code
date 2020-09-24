@@ -1,0 +1,50 @@
+body {
+    min-width: 320px;
+    max-width: 750px;
+    margin: 0 auto;
+    height: 1200px;
+    background-color: #f4f4f4;
+  }
+  //约束当屏幕大于750px时 HTML字体大小就不变了
+  @media screen and (min-width:750px){
+    html {
+      font-size: 37.5px !important;
+    
+    }
+  }
+
+.example {
+    height: 8.533333rem;
+    background-color: #ffffff;
+}
+
+
+
+
+.salary {
+    display: block;
+    margin-left: 0.533333rem;
+    height: 2rem;
+    color: #666666;
+    border-bottom: 1px solid #cccccc;
+    line-height: 2rem;
+    font-weight: 700;
+    background-color: #ffffff;
+}
+
+.salary-content {
+    display: flex;
+    margin-left: 0.533333rem;
+    height: 6.533333rem;
+    flex-direction: column;
+    //居中对齐
+    text-align: center;
+    .words {
+        margin-top: 1.066667rem;
+    }
+    .words span {
+        
+        font-size: 0.32rem;
+        
+    }
+}
