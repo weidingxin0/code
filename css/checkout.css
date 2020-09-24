@@ -71,14 +71,16 @@ body {
 .list li {
   height: 1.2rem;
   text-align: center;
+  margin-bottom: 0.933333rem;
 }
 .list .line {
   display: inline-block;
   width: 12.133333rem;
-  height: 0.026667rem;
+  height: 0.32rem;
   border-top: 1px solid #cccccc;
 }
 .list .location {
+  font-size: 0.906667rem;
   color: #333333;
   margin-right: 0.4rem;
 }
@@ -89,5 +91,19 @@ body {
   line-height: 1.2rem;
   width: 1.333333rem;
   margin-right: 0.266667rem;
+  background-color: #d2d2d2;
+}
+.list .first {
   background-color: #fc6460;
+}
+.list .second {
+  background-color: #fcb860;
+}
+.list .third {
+  background-color: #cdc5ae;
+}
+.list .jiage {
+  font-size: 0.906667rem;
+  color: #333333;
+  margin-left: 0.4rem;
 }
